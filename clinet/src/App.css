@@ -1,0 +1,16 @@
+/* [Start] ----- * ----- Scrollbar Style ----- * ----- */
+*::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+/* [End] ----- * ----- Scrollbar Style ----- * ----- */
